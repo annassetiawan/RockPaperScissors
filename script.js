@@ -11,9 +11,9 @@ const resultDraw = document.querySelector('.result');
 const resultWin = document.querySelector('.result');
 const resultLose = document.querySelector('.result');
 
-resultDraw.setAttribute('src', './assset/draw.svg');
-resultWin.setAttribute('src', './assset/win.svg');
-resultLose.setAttribute('src', './assset/lose.svg');
+resultDraw.setAttribute('src', './assset/draw.png');
+resultWin.setAttribute('src', './assset/win.png');
+resultLose.setAttribute('src', './assset/lose.png');
 
 
 
@@ -26,11 +26,11 @@ function getHasil(comp, player) {
     // if( player == 'gunting' ) return ( comp == 'batu' ) ? 'KALAH!' : 'MENANG!';
     // if( player == 'kertas' ) return ( comp == 'gunting' ) ? 'KALAH!' : 'MENANG!';
 
-    if (player == comp) return resultDraw.setAttribute('src', './assset/draw.svg');
+    if (player == comp) return resultDraw.setAttribute('src', './assset/draw.png');
 
-    if (player == 'batu') return (comp == 'gunting') ? resultWin.setAttribute('src', './assset/win.svg') : resultLose.setAttribute('src', './assset/lose.svg');
-    if (player == 'gunting') return (comp == 'batu') ? resultLose.setAttribute('src', './assset/lose.svg') : resultWin.setAttribute('src', './assset/win.svg');
-    if (player == 'kertas') return (comp == 'gunting') ? resultLose.setAttribute('src', './assset/lose.svg') : resultWin.setAttribute('src', './assset/win.svg');
+    if (player == 'batu') return (comp == 'gunting') ? resultWin.setAttribute('src', './assset/win.png') : resultLose.setAttribute('src', './assset/lose.png');
+    if (player == 'gunting') return (comp == 'batu') ? resultLose.setAttribute('src', './assset/lose.png') : resultWin.setAttribute('src', './assset/win.png');
+    if (player == 'kertas') return (comp == 'gunting') ? resultLose.setAttribute('src', './assset/lose.png') : resultWin.setAttribute('src', './assset/win.png');
 
 
 }
