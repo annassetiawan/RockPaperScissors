@@ -38,7 +38,13 @@ function getHasil(comp, player) {
 
 const player = document.querySelector('.player');
 const gunting = document.querySelector('.liGunting')
+const batu = document.querySelector('.liBatu')
+const kertas = document.querySelector('.liKertas')
 const cgunting = document.querySelector('.cgunting')
+const cbatu = document.querySelector('.cbatu')
+const ckertas = document.querySelector('.ckertas')
+
+
 const option = document.querySelectorAll('.image li img');
 
 
@@ -99,5 +105,21 @@ gunting.addEventListener('mouseover',function(){
 
 gunting.addEventListener('mouseout',function(){
     cgunting.classList.remove('hovergunting')
+})
+
+batu.addEventListener('mouseover',function(){
+    cbatu.classList.add('hovergunting')
+})
+
+batu.addEventListener('mouseout',function(){
+    cbatu.classList.remove('hovergunting')
+})
+
+kertas.addEventListener('mouseover',function(){
+    ckertas.classList.add('hovergunting')
+})
+
+kertas.addEventListener('mouseout',function(){
+    ckertas.classList.remove('hovergunting')
 })
 

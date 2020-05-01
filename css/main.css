@@ -262,6 +262,20 @@ header img {
   top: -10px;
 }
 
+.sectionC .hoverbatu {
+  background-color: #007CB4;
+  -webkit-transition: 1s top;
+  transition: 1s top;
+  top: -10px;
+}
+
+.sectionC .hoverkertas {
+  background-color: #FFA300;
+  -webkit-transition: 1s top;
+  transition: 1s top;
+  top: -10px;
+}
+
 @media screen and (min-width: 640px) {
   .sectionB {
     margin-top: -250px;
