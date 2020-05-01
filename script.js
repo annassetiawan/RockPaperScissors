@@ -108,18 +108,18 @@ gunting.addEventListener('mouseout',function(){
 })
 
 batu.addEventListener('mouseover',function(){
-    cbatu.classList.add('hovergunting')
+    cbatu.classList.add('hoverbatu')
 })
 
 batu.addEventListener('mouseout',function(){
-    cbatu.classList.remove('hovergunting')
+    cbatu.classList.remove('hoverbatu')
 })
 
 kertas.addEventListener('mouseover',function(){
-    ckertas.classList.add('hovergunting')
+    ckertas.classList.add('hoverkertas')
 })
 
 kertas.addEventListener('mouseout',function(){
-    ckertas.classList.remove('hovergunting')
+    ckertas.classList.remove('hoverkertas')
 })
 

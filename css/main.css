@@ -212,6 +212,14 @@ header img {
   cursor: pointer;
 }
 
+.sectionC .batu {
+  cursor: pointer;
+}
+
+.sectionC .kertas {
+  cursor: pointer;
+}
+
 .sectionC .text {
   display: -ms-grid;
   display: grid;
@@ -282,7 +290,7 @@ header img {
     margin-bottom: 100px;
   }
   .sectionB img {
-    width: 25%;
+    width: 20%;
   }
   .sectionC {
     margin-top: 100px;
@@ -331,7 +339,7 @@ header img {
     margin-bottom: 50px;
   }
   .sectionB img {
-    width: 25%;
+    width: 20%;
   }
   .sectionC {
     margin-top: 10px;
